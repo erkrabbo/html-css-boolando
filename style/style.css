@@ -107,3 +107,14 @@ html{
     background-image: url(../img/3.webp);
 }
 
+.down .show.left{
+    background-image: url(../img/4.webp);
+}
+
+.down .show.center{
+    background-image: url(../img/5.webp);
+}
+
+.down .show.right{
+    background-image: url(../img/6.webp);
+}
