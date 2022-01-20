@@ -32,10 +32,41 @@ html{
     z-index: 1;
 }
 
-.showcase .show.left{
+.up .show.left{
     background-image: url(../img/1.webp);
 }
 
+.show>.discount{
+    position: absolute;
+    z-index: 3;
+    bottom: 6rem;
+    padding: .25rem;
+    background-color: red;
+    color: white;
+}
+
+.show>.ecolabel{
+    position: absolute;
+    z-index: 3;
+    bottom: 6rem;
+    left: 3rem;
+    padding: .25rem;
+    background-color: green;
+    color: white;
+    text-transform:capitalize;
+}
+
+.show>.like{
+    padding: .5rem;
+    position: absolute;
+    top: .5rem;
+    right: 0;
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
 .showcase footer{
     position: absolute;
     bottom: 0;
@@ -61,11 +92,18 @@ html{
     font-weight: 600;
 }
 
-.showcase .show.center{
+.showcase footer>h3>span{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.up .show.center{
     background-image: url(../img/2.webp);
     margin: 0 1rem;
 }
 
-.showcase .show.right{
+.up .show.right{
     background-image: url(../img/3.webp);
 }
+
