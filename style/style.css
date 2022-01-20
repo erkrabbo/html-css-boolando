@@ -113,6 +113,7 @@ html{
 
 .down .show.center{
     background-image: url(../img/5.webp);
+    margin: 0 1rem;
 }
 
 .down .show.right{
