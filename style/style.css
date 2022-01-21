@@ -32,14 +32,10 @@ html{
     z-index: 1;
 }
 
-.up .show.left{
-    background-image: url(../img/1.webp);
-}
-
 .show>.discount{
     position: absolute;
     z-index: 3;
-    bottom: 6rem;
+    bottom: 8rem;
     padding: .25rem;
     background-color: red;
     color: white;
@@ -48,7 +44,7 @@ html{
 .show>.ecolabel{
     position: absolute;
     z-index: 3;
-    bottom: 6rem;
+    bottom: 8rem;
     left: 3rem;
     padding: .25rem;
     background-color: green;
@@ -62,12 +58,17 @@ html{
     top: .5rem;
     right: 0;
     background-color: white;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    line-height: 1.5rem;
     text-align: center;
-    vertical-align: middle;
+    font-size: 2rem;
 }
-.showcase footer{
+
+.show>.like:hover{
+    color:red;
+}
+
+.showcase header{
     position: absolute;
     bottom: 0;
     background-color: white;
@@ -76,26 +77,40 @@ html{
     z-index: 8;
 }
 
-.showcase footer>h1{
+.showcase header>h1{
     text-transform: capitalize;
     color: grey;
     font-weight: 400;
+    font-size: 1.5rem;
 }
-.showcase footer>h2{
+.showcase header>h2{
     text-transform: uppercase;
     color: black;
     font-weight: 600;
+    font-size: 2rem;
 }
 
-.showcase footer>h3{
+.showcase header>h3{
     color: red;
     font-weight: 600;
+    font-size: 1.5rem;
 }
 
-.showcase footer>h3>span{
+.showcase header>h3>span{
     color: black;
     text-decoration: line-through;
     font-weight: 400;
+}
+
+.down{
+    margin-top: 2rem;
+}
+.up .show.left{
+    background-image: url(../img/1.webp);
+}
+
+.up .show.left:hover{
+    background-image: url(../img/1b.webp);
 }
 
 .up .show.center{
@@ -103,12 +118,24 @@ html{
     margin: 0 1rem;
 }
 
+.up .show.center:hover{
+    background-image: url(../img/2b.webp);
+}
+
 .up .show.right{
     background-image: url(../img/3.webp);
 }
 
+.up .show.right:hover{
+    background-image: url(../img/3b.webp);
+}
+
 .down .show.left{
     background-image: url(../img/4.webp);
+}
+
+.down .show.left:hover{
+    background-image: url(../img/4b.webp);
 }
 
 .down .show.center{
@@ -116,6 +143,14 @@ html{
     margin: 0 1rem;
 }
 
+.down .show.center:hover{
+    background-image: url(../img/5b.webp);
+}
+
 .down .show.right{
     background-image: url(../img/6.webp);
+}
+
+.down .show.right:hover{
+    background-image: url(../img/6b.webp);
 }
