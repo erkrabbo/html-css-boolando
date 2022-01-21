@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 html{
     font-family: 'Barlow', sans-serif;
     line-height: 1;
@@ -32,6 +34,21 @@ html{
     height: auto;
 }
 
+.show img.preview{
+    position: relative;
+    z-index: 1;
+}
+
+.show img.detail{
+    position: absolute;
+    visibility: hidden;
+    z-index: 2;
+}
+
+.show:hover img.detail{
+    visibility: visible;
+}
+
  .show>.discount{
     position: absolute;
     z-index: 3;
@@ -57,6 +74,7 @@ html{
  .show>.like{
     padding: .5rem;
     position: absolute;
+    z-index: 3;
     top: .5rem;
     right: 0;
     background-color: white;
